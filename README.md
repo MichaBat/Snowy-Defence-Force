@@ -10,7 +10,7 @@ Wat hebben we hiervoor nodig?
 - Een camera.
 - Een mini pc/controller of de NAS.
 
-
+## Andere Ideeën altijd welkom :-)
 
 ![Het plan](https://github.com/user-attachments/assets/b279f905-6e14-44b2-a44d-06d1281f9376)
 
