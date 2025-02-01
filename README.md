@@ -16,4 +16,7 @@ Wat hebben we hiervoor nodig?
 
 
 # Code runnen
+In terminal
+Cd naar correcte folder
+Dan:
 python run.py
