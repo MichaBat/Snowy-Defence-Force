@@ -16,4 +16,4 @@ Wat hebben we hiervoor nodig?
 
 
 # Code runnen
-IN AANBOUW
+python run.py
