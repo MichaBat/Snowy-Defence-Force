@@ -49,7 +49,7 @@ cat_detector = train_model(create_model(1), "dataset/cat_vs_not_cat/", cat_detec
 cat_identifier = train_model(create_model(1), "dataset/snowy_vs_other_cats/", cat_identifier_path)
 
 # === IMAGE CLASSIFICATION ===
-folder_path = r'C:\Users\Micha\Desktop\Snowy-Defence-Force\Snowy Defence System\images'
+folder_path = "./images"
 image_files = [f for f in os.listdir(folder_path) if f.lower().endswith(('.png', '.jpg', '.jpeg'))]
 
 for img_file in image_files:
