@@ -46,7 +46,7 @@ def train_model(model, dataset_path, save_path):
 
 # === CHECK AND TRAIN MODELS ===
 cat_detector = train_model(create_model(1), "dataset/cat_vs_not_cat/", cat_detector_path)
-cat_identifier = train_model(create_model(1), "dataset/my_cat_vs_other_cats/", cat_identifier_path)
+cat_identifier = train_model(create_model(1), "dataset/snowy_vs_other_cats/", cat_identifier_path)
 
 # === IMAGE CLASSIFICATION ===
 folder_path = r'C:\Users\Micha\Desktop\Snowy-Defence-Force\Snowy Defence System\images'
