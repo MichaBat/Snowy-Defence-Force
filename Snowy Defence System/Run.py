@@ -14,8 +14,8 @@ cat_identifier_path = "my_cat_vs_other_cats.h5"
 
 # === FUNCTION TO CREATE A MODEL ===
 def create_model(output_units=1):
-    base_model = MobileNetV2(weights="imagenet", include_top=False, input_shape=(224, 224, 3))
-    base_model.trainable = False  # Freeze base model layers
+    base_model = MobileNetV2(weights="imagenet", include_top=False, input_shape=(None, None, 3))
+    base_model.trainable = True
     
     x = GlobalAveragePooling2D()(base_model.output)
     x = Dense(128, activation='relu')(x)
